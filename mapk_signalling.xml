@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns:moose="http://www.moose.ncbs.res.in" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:addedPrefix="http://www.sbml.org/sbml/level3/version1" level="3" version="1">
-  <model id="mp25star" substanceUnits="substance" timeUnits="second" extentUnits="substance">
-    <annotation>
-      <moose:ModelAnnotation>
-        <moose:plots/>
-      </moose:ModelAnnotation>
-    </annotation>
+  <model id="mp41" substanceUnits="substance" timeUnits="second" extentUnits="substance">
     <listOfUnitDefinitions>
       <unitDefinition id="volume">
         <listOfUnits>
@@ -36,189 +31,198 @@
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment id="Compartment_600_0_" name="Compartment" spatialDimensions="3" size="1e-12" units="volume" constant="true"/>
+      <compartment id="Compartment_462_0_" name="Compartment" spatialDimensions="3" size="1e-12" units="volume" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="G2K_602_0_" name="G2K" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="PG2_603_0_" name="PG2" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="A_dot_A_604_0_" name="A_dot_A" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="Wee1_605_0_" name="Wee1" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="Cdc25_606_0_" name="Cdc25" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="Wee1_star__607_0_" name="Wee1_star_" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="EWback_608_0_" name="EWback" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="Cdc25_star__609_0_" name="Cdc25_star_" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="E25back_610_0_" name="E25back" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="G2K_dash_R_611_0_" name="G2K_dash_R" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="R_612_0_" name="R" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="ube_613_0_" name="ube" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="c13degraded_614_0_" name="c13degraded" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="c2_615_0_" name="c2" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="Rdegraded_616_0_" name="Rdegraded" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="IE_star__617_0_" name="IE_star_" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="IE_618_0_" name="IE" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="UBE_star__619_0_" name="UBE_star_" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="EIback_620_0_" name="EIback" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="EUback_621_0_" name="EUback" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="PG2R_622_0_" name="PG2R" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="AA2_623_0_" name="AA2" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="G1K_624_0_" name="G1K" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="AA3_625_0_" name="AA3" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="MPFHASH_626_0_" name="MPFHASH" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="G1KR_627_0_" name="G1KR" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="Cg2degraded_628_0_" name="Cg2degraded" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="UbE2_629_0_" name="UbE2" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="UbE2_star__630_0_" name="UbE2_star_" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="EU2back_631_0_" name="EU2back" compartment="Compartment_600_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
-      <species id="MPF_S_632_0_" name="MPF_S" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true"/>
-      <species id="SPF_633_0_" name="SPF" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true"/>
-      <species id="MPF_634_0_" name="MPF" compartment="Compartment_600_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true"/>
+      <species id="G2K_464_0_" name="G2K" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="PG2_465_0_" name="PG2" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="A_dot_A_466_0_" name="A_dot_A" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="Wee1_467_0_" name="Wee1" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="Cdc25_468_0_" name="Cdc25" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="Wee1_star__469_0_" name="Wee1_star_" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="EWback_470_0_" name="EWback" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="Cdc25_star__471_0_" name="Cdc25_star_" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="E25back_472_0_" name="E25back" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="G2K_dash_R_473_0_" name="G2K_dash_R" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="R_474_0_" name="R" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="ube_475_0_" name="ube" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="c13degraded_476_0_" name="c13degraded" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="c2_477_0_" name="c2" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="Rdegraded_478_0_" name="Rdegraded" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="IE_star__479_0_" name="IE_star_" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="IE_480_0_" name="IE" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="UBE_star__481_0_" name="UBE_star_" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="EIback_482_0_" name="EIback" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="EUback_483_0_" name="EUback" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="PG2R_484_0_" name="PG2R" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="AA2_485_0_" name="AA2" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="G1K_486_0_" name="G1K" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="AA3_487_0_" name="AA3" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="G1KR_488_0_" name="G1KR" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="Cg2degraded_489_0_" name="Cg2degraded" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="UbE2_490_0_" name="UbE2" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="UbE2_star__491_0_" name="UbE2_star_" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="EU2back_492_0_" name="EU2back" compartment="Compartment_462_0_" initialAmount="602214150.000001" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="MPF_S_493_0_" name="MPF_S" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true"/>
+      <species id="SPF_494_0_" name="SPF" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true"/>
+      <species id="MPF_495_0_" name="MPF" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true"/>
+      <species id="MPFHASH_496_0_" name="MPFHASH" compartment="Compartment_462_0_" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true" constant="true"/>
     </listOfSpecies>
     <listOfRules>
-      <assignmentRule variable="MPF_S_632_0_">
+      <assignmentRule variable="MPF_S_493_0_">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <plus/>
-            <ci> G2K_602_0_ </ci>
-            <ci> PG2_603_0_ </ci>
+            <ci> G2K_464_0_ </ci>
+            <ci> PG2_465_0_ </ci>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="SPF_633_0_">
+      <assignmentRule variable="SPF_494_0_">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <plus/>
-            <ci> MPF_S_632_0_ </ci>
-            <ci> MPFHASH_626_0_ </ci>
-            <ci> G1K_624_0_ </ci>
-            <ci> MPF_634_0_ </ci>
+            <ci> MPF_S_493_0_ </ci>
+            <ci> G1K_486_0_ </ci>
+            <ci> MPF_495_0_ </ci>
+            <ci> MPFHASH_496_0_ </ci>
           </apply>
         </math>
       </assignmentRule>
-      <assignmentRule variable="MPF_634_0_">
+      <assignmentRule variable="MPF_495_0_">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <plus/>
-            <ci> G2K_602_0_ </ci>
-            <ci> PG2_603_0_ </ci>
+            <ci> G2K_464_0_ </ci>
+            <ci> PG2_465_0_ </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="MPFHASH_496_0_">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> PG2_465_0_ </ci>
+            <ci> G2K_464_0_ </ci>
           </apply>
         </math>
       </assignmentRule>
     </listOfRules>
     <listOfReactions>
-      <reaction id="k1_641_0_" name="k1" reversible="false" fast="false">
+      <reaction id="k1_505_0_" name="k1" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="A_dot_A_604_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="A_dot_A_466_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="G2K_602_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_464_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> k1_641_0__Kf </ci>
-              <ci> A_dot_A_604_0_ </ci>
+              <ci> k1_505_0__Kf </ci>
+              <ci> A_dot_A_466_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="k1_641_0__Kf" value="0.015" units="per_second"/>
+            <localParameter id="k1_505_0__Kf" value="0.015" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="kwee_642_0_" name="kwee" reversible="false" fast="false">
+      <reaction id="kwee_506_0_" name="kwee" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="G2K_602_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="Wee1_605_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_464_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Wee1_467_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="PG2_603_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="PG2_465_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> kwee_642_0__Kf </ci>
-              <ci> G2K_602_0_ </ci>
-              <ci> Wee1_605_0_ </ci>
+              <ci> kwee_506_0__Kf </ci>
+              <ci> G2K_464_0_ </ci>
+              <ci> Wee1_467_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="kwee_642_0__Kf" value="5.81188602094453e-10" units="per_item_per_second"/>
+            <localParameter id="kwee_506_0__Kf" value="5.81188602094453e-10" units="per_item_per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="k25_643_0_" name="k25" reversible="false" fast="false">
+      <reaction id="k25_507_0_" name="k25" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="PG2_603_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="Cdc25_606_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="PG2_465_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Cdc25_468_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="G2K_602_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_464_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> k25_643_0__Kf </ci>
-              <ci> PG2_603_0_ </ci>
-              <ci> Cdc25_606_0_ </ci>
+              <ci> k25_507_0__Kf </ci>
+              <ci> PG2_465_0_ </ci>
+              <ci> Cdc25_468_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="k25_643_0__Kf" value="8.30269431563504e-10" units="per_item_per_second"/>
+            <localParameter id="k25_507_0__Kf" value="8.30269431563504e-10" units="per_item_per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="k2_644_0_" name="k2" reversible="false" fast="false">
+      <reaction id="k2_508_0_" name="k2" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="G2K_602_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="ube_613_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_464_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="ube_475_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="c13degraded_614_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="c2_615_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="c13degraded_476_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="c2_477_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> k2_644_0__Kf </ci>
-              <ci> G2K_602_0_ </ci>
-              <ci> ube_613_0_ </ci>
+              <ci> k2_508_0__Kf </ci>
+              <ci> G2K_464_0_ </ci>
+              <ci> ube_475_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="k2_644_0__Kf" value="4.15134715781752e-10" units="per_item_per_second"/>
+            <localParameter id="k2_508_0__Kf" value="4.15134715781752e-10" units="per_item_per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="y_645_0_" name="y" reversible="false" fast="false">
+      <reaction id="y_509_0_" name="y" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="AA2_623_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="AA2_485_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> y_645_0__Kf </ci>
-              <ci> AA2_623_0_ </ci>
+              <ci> y_509_0__Kf </ci>
+              <ci> AA2_485_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="y_645_0__Kf" value="0.09375" units="per_second"/>
+            <localParameter id="y_509_0__Kf" value="0.09375" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="h_646_0_" name="h" reversible="true" fast="false">
+      <reaction id="h_510_0_" name="h" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="G2K_602_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_464_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="G2K_dash_R_611_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_dash_R_473_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -226,49 +230,49 @@
               <minus/>
               <apply>
                 <times/>
-                <ci> h_646_0__Kf </ci>
-                <ci> G2K_602_0_ </ci>
-                <ci> R_612_0_ </ci>
+                <ci> h_510_0__Kf </ci>
+                <ci> G2K_464_0_ </ci>
+                <ci> R_474_0_ </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> h_646_0__Kb </ci>
-                <ci> G2K_dash_R_611_0_ </ci>
+                <ci> h_510_0__Kb </ci>
+                <ci> G2K_dash_R_473_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="h_646_0__Kf" value="1.66053886312701e-07" units="per_item_per_second"/>
-            <localParameter id="h_646_0__Kb" value="0.1" units="per_second"/>
+            <localParameter id="h_510_0__Kf" value="1.66053886312701e-07" units="per_item_per_second"/>
+            <localParameter id="h_510_0__Kb" value="0.1" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="q_647_0_" name="q" reversible="false" fast="false">
+      <reaction id="q_511_0_" name="q" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Rdegraded_616_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Rdegraded_478_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> q_647_0__Kf </ci>
-              <ci> R_612_0_ </ci>
+              <ci> q_511_0__Kf </ci>
+              <ci> R_474_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="q_647_0__Kf" value="0.1875" units="per_second"/>
+            <localParameter id="q_511_0__Kf" value="0.1875" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="z_648_0_" name="z" reversible="true" fast="false">
+      <reaction id="z_512_0_" name="z" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="AA3_625_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="AA3_487_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="G1K_624_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G1K_486_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -276,29 +280,29 @@
               <minus/>
               <apply>
                 <times/>
-                <ci> z_648_0__Kf </ci>
-                <ci> AA3_625_0_ </ci>
+                <ci> z_512_0__Kf </ci>
+                <ci> AA3_487_0_ </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> z_648_0__Kb </ci>
-                <ci> G1K_624_0_ </ci>
+                <ci> z_512_0__Kb </ci>
+                <ci> G1K_486_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="z_648_0__Kf" value="0.00175" units="per_second"/>
-            <localParameter id="z_648_0__Kb" value="0.2" units="per_second"/>
+            <localParameter id="z_512_0__Kf" value="0.00175" units="per_second"/>
+            <localParameter id="z_512_0__Kb" value="0.2" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="x_649_0_" name="x" reversible="true" fast="false">
+      <reaction id="x_513_0_" name="x" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="PG2_603_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="PG2_465_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="PG2R_622_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="PG2R_484_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -306,30 +310,30 @@
               <minus/>
               <apply>
                 <times/>
-                <ci> x_649_0__Kf </ci>
-                <ci> PG2_603_0_ </ci>
-                <ci> R_612_0_ </ci>
+                <ci> x_513_0__Kf </ci>
+                <ci> PG2_465_0_ </ci>
+                <ci> R_474_0_ </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> x_649_0__Kb </ci>
-                <ci> PG2R_622_0_ </ci>
+                <ci> x_513_0__Kb </ci>
+                <ci> PG2R_484_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="x_649_0__Kf" value="1.66053886312701e-07" units="per_item_per_second"/>
-            <localParameter id="x_649_0__Kb" value="0.1" units="per_second"/>
+            <localParameter id="x_513_0__Kf" value="1.66053886312701e-07" units="per_item_per_second"/>
+            <localParameter id="x_513_0__Kb" value="0.1" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="o_650_0_" name="o" reversible="true" fast="false">
+      <reaction id="o_514_0_" name="o" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="PG2R_622_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="PG2R_484_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="PG2_603_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="Rdegraded_616_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="PG2_465_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Rdegraded_478_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -337,30 +341,30 @@
               <minus/>
               <apply>
                 <times/>
-                <ci> o_650_0__Kf </ci>
-                <ci> PG2R_622_0_ </ci>
+                <ci> o_514_0__Kf </ci>
+                <ci> PG2R_484_0_ </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> o_650_0__Kb </ci>
-                <ci> PG2_603_0_ </ci>
-                <ci> Rdegraded_616_0_ </ci>
+                <ci> o_514_0__Kb </ci>
+                <ci> PG2_465_0_ </ci>
+                <ci> Rdegraded_478_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="o_650_0__Kf" value="0.1875" units="per_second"/>
-            <localParameter id="o_650_0__Kb" value="3.32107772625402e-10" units="per_item_per_second"/>
+            <localParameter id="o_514_0__Kf" value="0.1875" units="per_second"/>
+            <localParameter id="o_514_0__Kb" value="3.32107772625402e-10" units="per_item_per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="c_651_0_" name="c" reversible="true" fast="false">
+      <reaction id="c_515_0_" name="c" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="G1K_624_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G1K_486_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="G1KR_627_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G1KR_488_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -368,52 +372,52 @@
               <minus/>
               <apply>
                 <times/>
-                <ci> c_651_0__Kf </ci>
-                <ci> R_612_0_ </ci>
-                <ci> G1K_624_0_ </ci>
+                <ci> c_515_0__Kf </ci>
+                <ci> R_474_0_ </ci>
+                <ci> G1K_486_0_ </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> c_651_0__Kb </ci>
-                <ci> G1KR_627_0_ </ci>
+                <ci> c_515_0__Kb </ci>
+                <ci> G1KR_488_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="c_651_0__Kf" value="1.66053886312701e-10" units="per_item_per_second"/>
-            <localParameter id="c_651_0__Kb" value="0.2" units="per_second"/>
+            <localParameter id="c_515_0__Kf" value="1.66053886312701e-10" units="per_item_per_second"/>
+            <localParameter id="c_515_0__Kb" value="0.2" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="w_652_0_" name="w" reversible="false" fast="false">
+      <reaction id="w_516_0_" name="w" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="G1KR_627_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G1KR_488_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="c2_615_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="Cg2degraded_628_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="c2_477_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Cg2degraded_489_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> w_652_0__Kf </ci>
-              <ci> G1KR_627_0_ </ci>
+              <ci> w_516_0__Kf </ci>
+              <ci> G1KR_488_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="w_652_0__Kf" value="0" units="per_second"/>
+            <localParameter id="w_516_0__Kf" value="0" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="v_653_0_" name="v" reversible="true" fast="false">
+      <reaction id="v_517_0_" name="v" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="G1KR_627_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G1KR_488_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Rdegraded_616_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="G1K_624_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Rdegraded_478_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G1K_486_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -421,52 +425,52 @@
               <minus/>
               <apply>
                 <times/>
-                <ci> v_653_0__Kf </ci>
-                <ci> G1KR_627_0_ </ci>
+                <ci> v_517_0__Kf </ci>
+                <ci> G1KR_488_0_ </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> v_653_0__Kb </ci>
-                <ci> Rdegraded_616_0_ </ci>
-                <ci> G1K_624_0_ </ci>
+                <ci> v_517_0__Kb </ci>
+                <ci> Rdegraded_478_0_ </ci>
+                <ci> G1K_486_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="v_653_0__Kf" value="0.1875" units="per_second"/>
-            <localParameter id="v_653_0__Kb" value="3.32107772625402e-10" units="per_item_per_second"/>
+            <localParameter id="v_517_0__Kf" value="0.1875" units="per_second"/>
+            <localParameter id="v_517_0__Kb" value="3.32107772625402e-10" units="per_item_per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="f_654_0_" name="f" reversible="false" fast="false">
+      <reaction id="f_518_0_" name="f" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="G2K_dash_R_611_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_dash_R_473_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="G2K_602_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="Rdegraded_616_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_464_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Rdegraded_478_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> f_654_0__Kf </ci>
-              <ci> G2K_dash_R_611_0_ </ci>
+              <ci> f_518_0__Kf </ci>
+              <ci> G2K_dash_R_473_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="f_654_0__Kf" value="0.1875" units="per_second"/>
+            <localParameter id="f_518_0__Kf" value="0.1875" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="p_655_0_" name="p" reversible="true" fast="false">
+      <reaction id="p_519_0_" name="p" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="G2K_dash_R_611_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G2K_dash_R_473_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="c13degraded_614_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="c2_615_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="c13degraded_476_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="c2_477_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -474,32 +478,32 @@
               <minus/>
               <apply>
                 <times/>
-                <ci> p_655_0__Kf </ci>
-                <ci> G2K_dash_R_611_0_ </ci>
+                <ci> p_519_0__Kf </ci>
+                <ci> G2K_dash_R_473_0_ </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> p_655_0__Kb </ci>
-                <ci> R_612_0_ </ci>
-                <ci> c13degraded_614_0_ </ci>
-                <ci> c2_615_0_ </ci>
+                <ci> p_519_0__Kb </ci>
+                <ci> R_474_0_ </ci>
+                <ci> c13degraded_476_0_ </ci>
+                <ci> c2_477_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="p_655_0__Kf" value="0.05" units="per_second"/>
-            <localParameter id="p_655_0__Kb" value="6.89347328988785e-19" units="per_item_sq_per_second"/>
+            <localParameter id="p_519_0__Kf" value="0.05" units="per_second"/>
+            <localParameter id="p_519_0__Kb" value="6.89347328988785e-19" units="per_item_sq_per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="l_656_0_" name="l" reversible="true" fast="false">
+      <reaction id="l_520_0_" name="l" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="PG2R_622_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="PG2R_484_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="c13degraded_614_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="c2_615_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="c13degraded_476_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="c2_477_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -507,61 +511,61 @@
               <minus/>
               <apply>
                 <times/>
-                <ci> l_656_0__Kf </ci>
-                <ci> PG2R_622_0_ </ci>
+                <ci> l_520_0__Kf </ci>
+                <ci> PG2R_484_0_ </ci>
               </apply>
               <apply>
                 <times/>
-                <ci> l_656_0__Kb </ci>
-                <ci> R_612_0_ </ci>
-                <ci> c13degraded_614_0_ </ci>
-                <ci> c2_615_0_ </ci>
+                <ci> l_520_0__Kb </ci>
+                <ci> R_474_0_ </ci>
+                <ci> c13degraded_476_0_ </ci>
+                <ci> c2_477_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="l_656_0__Kf" value="0.05" units="per_second"/>
-            <localParameter id="l_656_0__Kb" value="6.89347328988785e-19" units="per_item_sq_per_second"/>
+            <localParameter id="l_520_0__Kf" value="0.05" units="per_second"/>
+            <localParameter id="l_520_0__Kb" value="6.89347328988785e-19" units="per_item_sq_per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="K_657_0_" name="K" reversible="false" fast="false">
+      <reaction id="K_521_0_" name="K" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="G1K_624_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="UbE2_629_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="G1K_486_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="UbE2_490_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="c2_615_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="Cg2degraded_628_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="c2_477_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Cg2degraded_489_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> K_657_0__Kf </ci>
-              <ci> G1K_624_0_ </ci>
-              <ci> UbE2_629_0_ </ci>
+              <ci> K_521_0__Kf </ci>
+              <ci> G1K_486_0_ </ci>
+              <ci> UbE2_490_0_ </ci>
             </apply>
           </math>
           <listOfLocalParameters>
-            <localParameter id="K_657_0__Kf" value="1.24540414734526e-08" units="per_item_per_second"/>
+            <localParameter id="K_521_0__Kf" value="1.24540414734526e-08" units="per_item_per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz1_658_0_" name="MMenz1" reversible="false" fast="false">
+      <reaction id="MMenz1_522_0_" name="MMenz1" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="Wee1_star__607_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Wee1_star__469_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Wee1_605_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Wee1_467_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="EWback_608_0_"/>
+          <modifierSpeciesReference species="EWback_470_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*Wee1_star__607_0_*EWback_608_0_/(Km +Wee1_star__607_0_)
+		kcat*Wee1_star__469_0_*EWback_470_0_/(Km +Wee1_star__469_0_)
 
 	 </body>
           </notes>
@@ -571,13 +575,13 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> Wee1_star__607_0_ </ci>
-                <ci> EWback_608_0_ </ci>
+                <ci> Wee1_star__469_0_ </ci>
+                <ci> EWback_470_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
-                <ci> Wee1_star__607_0_ </ci>
+                <ci> Wee1_star__469_0_ </ci>
               </apply>
             </apply>
           </math>
@@ -587,20 +591,20 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz2_659_0_" name="MMenz2" reversible="false" fast="false">
+      <reaction id="MMenz2_523_0_" name="MMenz2" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="Cdc25_606_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Cdc25_468_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Cdc25_star__609_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Cdc25_star__471_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="E25back_610_0_"/>
+          <modifierSpeciesReference species="E25back_472_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*Cdc25_606_0_*E25back_610_0_/(Km +Cdc25_606_0_)
+		kcat*Cdc25_468_0_*E25back_472_0_/(Km +Cdc25_468_0_)
 
 	 </body>
           </notes>
@@ -610,13 +614,13 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> Cdc25_606_0_ </ci>
-                <ci> E25back_610_0_ </ci>
+                <ci> Cdc25_468_0_ </ci>
+                <ci> E25back_472_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
-                <ci> Cdc25_606_0_ </ci>
+                <ci> Cdc25_468_0_ </ci>
               </apply>
             </apply>
           </math>
@@ -626,20 +630,20 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz_660_0_" name="MMenz" reversible="false" fast="false">
+      <reaction id="MMenz_524_0_" name="MMenz" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="UBE_star__619_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="UBE_star__481_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="ube_613_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="ube_475_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="IE_618_0_"/>
+          <modifierSpeciesReference species="IE_480_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*UBE_star__619_0_*IE_618_0_/(Km +UBE_star__619_0_)
+		kcat*UBE_star__481_0_*IE_480_0_/(Km +UBE_star__481_0_)
 
 	 </body>
           </notes>
@@ -649,13 +653,13 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> UBE_star__619_0_ </ci>
-                <ci> IE_618_0_ </ci>
+                <ci> UBE_star__481_0_ </ci>
+                <ci> IE_480_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
-                <ci> UBE_star__619_0_ </ci>
+                <ci> UBE_star__481_0_ </ci>
               </apply>
             </apply>
           </math>
@@ -665,20 +669,20 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz1_661_0_" name="MMenz1" reversible="false" fast="false">
+      <reaction id="MMenz1_525_0_" name="MMenz1" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="IE_618_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="IE_480_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="IE_star__617_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="IE_star__479_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="EIback_620_0_"/>
+          <modifierSpeciesReference species="EIback_482_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*IE_618_0_*EIback_620_0_/(Km +IE_618_0_)
+		kcat*IE_480_0_*EIback_482_0_/(Km +IE_480_0_)
 
 	 </body>
           </notes>
@@ -688,13 +692,13 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> IE_618_0_ </ci>
-                <ci> EIback_620_0_ </ci>
+                <ci> IE_480_0_ </ci>
+                <ci> EIback_482_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
-                <ci> IE_618_0_ </ci>
+                <ci> IE_480_0_ </ci>
               </apply>
             </apply>
           </math>
@@ -704,20 +708,20 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz2_662_0_" name="MMenz2" reversible="false" fast="false">
+      <reaction id="MMenz2_526_0_" name="MMenz2" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="ube_613_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="ube_475_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="UBE_star__619_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="UBE_star__481_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="EUback_621_0_"/>
+          <modifierSpeciesReference species="EUback_483_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*ube_613_0_*EUback_621_0_/(Km +ube_613_0_)
+		kcat*ube_475_0_*EUback_483_0_/(Km +ube_475_0_)
 
 	 </body>
           </notes>
@@ -727,13 +731,13 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> ube_613_0_ </ci>
-                <ci> EUback_621_0_ </ci>
+                <ci> ube_475_0_ </ci>
+                <ci> EUback_483_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
-                <ci> ube_613_0_ </ci>
+                <ci> ube_475_0_ </ci>
               </apply>
             </apply>
           </math>
@@ -743,20 +747,20 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz_663_0_" name="MMenz" reversible="false" fast="false">
+      <reaction id="MMenz1_527_0_" name="MMenz1" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="IE_star__617_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="UbE2_490_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="IE_618_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="UbE2_star__491_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="MPFHASH_626_0_"/>
+          <modifierSpeciesReference species="EU2back_492_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*IE_star__617_0_*MPFHASH_626_0_/(Km +IE_star__617_0_)
+		kcat*UbE2_490_0_*EU2back_492_0_/(Km +UbE2_490_0_)
 
 	 </body>
           </notes>
@@ -766,52 +770,13 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> IE_star__617_0_ </ci>
-                <ci> MPFHASH_626_0_ </ci>
+                <ci> UbE2_490_0_ </ci>
+                <ci> EU2back_492_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
-                <ci> IE_star__617_0_ </ci>
-              </apply>
-            </apply>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="Km" value="6022141.50000001" units="substance"/>
-            <localParameter id="kcat" value="0.4" units="per_second"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="MMenz1_664_0_" name="MMenz1" reversible="false" fast="false">
-        <listOfReactants>
-          <speciesReference species="UbE2_629_0_" stoichiometry="1" constant="false"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="UbE2_star__630_0_" stoichiometry="1" constant="false"/>
-        </listOfProducts>
-        <listOfModifiers>
-          <modifierSpeciesReference species="EU2back_631_0_"/>
-        </listOfModifiers>
-        <kineticLaw>
-          <notes>
-            <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*UbE2_629_0_*EU2back_631_0_/(Km +UbE2_629_0_)
-
-	 </body>
-          </notes>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> kcat </ci>
-                <ci> UbE2_629_0_ </ci>
-                <ci> EU2back_631_0_ </ci>
-              </apply>
-              <apply>
-                <plus/>
-                <ci> Km </ci>
-                <ci> UbE2_629_0_ </ci>
+                <ci> UbE2_490_0_ </ci>
               </apply>
             </apply>
           </math>
@@ -821,20 +786,20 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz_665_0_" name="MMenz" reversible="false" fast="false">
+      <reaction id="MMenz_528_0_" name="MMenz" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="UbE2_star__630_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="UbE2_star__491_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="UbE2_629_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="UbE2_490_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="MPF_S_632_0_"/>
+          <modifierSpeciesReference species="MPF_S_493_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*UbE2_star__630_0_*MPF_S_632_0_/(Km +UbE2_star__630_0_)
+		kcat*UbE2_star__491_0_*MPF_S_493_0_/(Km +UbE2_star__491_0_)
 
 	 </body>
           </notes>
@@ -844,13 +809,13 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> UbE2_star__630_0_ </ci>
-                <ci> MPF_S_632_0_ </ci>
+                <ci> UbE2_star__491_0_ </ci>
+                <ci> MPF_S_493_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
-                <ci> UbE2_star__630_0_ </ci>
+                <ci> UbE2_star__491_0_ </ci>
               </apply>
             </apply>
           </math>
@@ -860,20 +825,20 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz_666_0_" name="MMenz" reversible="false" fast="false">
+      <reaction id="MMenz_529_0_" name="MMenz" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="R_612_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="R_474_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Rdegraded_616_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Rdegraded_478_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="SPF_633_0_"/>
+          <modifierSpeciesReference species="SPF_494_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*R_612_0_*SPF_633_0_/(Km +R_612_0_)
+		kcat*R_474_0_*SPF_494_0_/(Km +R_474_0_)
 
 	 </body>
           </notes>
@@ -883,38 +848,38 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> R_612_0_ </ci>
-                <ci> SPF_633_0_ </ci>
+                <ci> R_474_0_ </ci>
+                <ci> SPF_494_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
-                <ci> R_612_0_ </ci>
+                <ci> R_474_0_ </ci>
               </apply>
             </apply>
           </math>
           <listOfLocalParameters>
             <localParameter id="Km" value="602214.150000001" units="substance"/>
-            <localParameter id="kcat" value="3.25" units="per_second"/>
+            <localParameter id="kcat" value="0.0321" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="MMenz_667_0_" name="MMenz" reversible="false" fast="false">
+      <reaction id="MMenz_530_0_" name="MMenz" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="Wee1_605_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="Cdc25_star__609_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Wee1_467_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Cdc25_star__471_0_" stoichiometry="1" constant="false"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="Cdc25_606_0_" stoichiometry="1" constant="false"/>
-          <speciesReference species="Wee1_star__607_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Cdc25_468_0_" stoichiometry="1" constant="false"/>
+          <speciesReference species="Wee1_star__469_0_" stoichiometry="1" constant="false"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference species="MPF_634_0_"/>
+          <modifierSpeciesReference species="MPF_495_0_"/>
         </listOfModifiers>
         <kineticLaw>
           <notes>
             <body xmlns="http://www.w3.org/1999/xhtml">
-		kcat*Wee1_605_0_*Cdc25_star__609_0_*MPF_634_0_/(Km +Wee1_605_0_*Cdc25_star__609_0_)
+		kcat*Wee1_467_0_*Cdc25_star__471_0_*MPF_495_0_/(Km +Wee1_467_0_*Cdc25_star__471_0_)
 
 	 </body>
           </notes>
@@ -924,17 +889,17 @@
               <apply>
                 <times/>
                 <ci> kcat </ci>
-                <ci> Wee1_605_0_ </ci>
-                <ci> Cdc25_star__609_0_ </ci>
-                <ci> MPF_634_0_ </ci>
+                <ci> Wee1_467_0_ </ci>
+                <ci> Cdc25_star__471_0_ </ci>
+                <ci> MPF_495_0_ </ci>
               </apply>
               <apply>
                 <plus/>
                 <ci> Km </ci>
                 <apply>
                   <times/>
-                  <ci> Wee1_605_0_ </ci>
-                  <ci> Cdc25_star__609_0_ </ci>
+                  <ci> Wee1_467_0_ </ci>
+                  <ci> Cdc25_star__471_0_ </ci>
                 </apply>
               </apply>
             </apply>
@@ -942,6 +907,45 @@
           <listOfLocalParameters>
             <localParameter id="Km" value="3.62661882460224e+16" units="substance"/>
             <localParameter id="kcat" value="1" units="per_second"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="MMenz_531_0_" name="MMenz" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="IE_star__479_0_" stoichiometry="1" constant="false"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="IE_480_0_" stoichiometry="1" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="MPFHASH_496_0_"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <notes>
+            <body xmlns="http://www.w3.org/1999/xhtml">
+		kcat*IE_star__479_0_*MPFHASH_496_0_/(Km +IE_star__479_0_)
+
+	 </body>
+          </notes>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> kcat </ci>
+                <ci> IE_star__479_0_ </ci>
+                <ci> MPFHASH_496_0_ </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Km </ci>
+                <ci> IE_star__479_0_ </ci>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="Km" value="6022141.50000001" units="substance"/>
+            <localParameter id="kcat" value="0.4" units="per_second"/>
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
